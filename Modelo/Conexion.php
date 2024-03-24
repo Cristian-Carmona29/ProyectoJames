@@ -9,7 +9,7 @@ class Conexion
 
     public function abrir()
     {
-        $this->mySQLI = new mysqli("localhost", "root", "", "citas");
+        $this->mySQLI = new mysqli("localhost", "id21520856_carmona", "Felipe.29", "id21520856_citas");
         if (mysqli_connect_error()) {
             return 0;
         } else {
